@@ -1,0 +1,14 @@
+{
+  "name": "example-nodejs-express",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3",
+    "cozy-ical": "^1.1.14",
+    "express": "^4.11.0",
+    "phantomjs": "^1.9.18"
+  }
+}
