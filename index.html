@@ -53,10 +53,10 @@
     <div class="container">
       <form class="form-signin">
         <h1>Automatic TU/e schedule</h1>
-
+        <a class="github-button" href="https://github.com/Whazor/tuerooster" data-icon="octicon-star" data-style="mega" data-count-href="/Whazor/tuerooster/stargazers" data-count-api="/repos/Whazor/tuerooster#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star Whazor/tuerooster on GitHub">Star</a>
+        <br>
         <h2 class="form-signin-heading">Step 1: Fill in your TU/e credentials</h2>
         <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/Whazor/tuerooster" data-icon="octicon-star" data-style="mega" data-count-href="/Whazor/tuerooster/stargazers" data-count-api="/repos/Whazor/tuerooster#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star Whazor/tuerooster on GitHub">Star</a>
 
         <label for="inputUser" class="sr-only">Username</label>
         <input type="text" id="inputUser" class="form-control" placeholder="s133713" required autofocus>
@@ -81,7 +81,7 @@
       var output = document.getElementById('outputUrl');
 
       var change = function(event) {
-        var url = 'http://tuerooster.mycel.nl/rooster?username='+user.value+'&password='+pass.value;
+        var url = 'https://tuerooster.mycel.nl/rooster?username='+user.value+'&password='+pass.value;
         output.value = url;
       }
 
