@@ -22,7 +22,7 @@ casper.on('resource.requested', function (resource) {
   }
 })
 
-casper.start('https://onderwijssso.tue.nl/Activiteiten/Pages/TimeTable.aspx?mode=kwartiel').waitForSelector('#logonForm', function() {
+casper.start('https://onderwijssso.tue.nl/Activiteiten/Pages/TimeTable.aspx?mode=jaar').waitForSelector('#logonForm', function() {
     this.fill('form#logonForm', { username: username, password: password }, true);
 }).waitForText('Persoonlijk rooster', function() {
     this.click({
